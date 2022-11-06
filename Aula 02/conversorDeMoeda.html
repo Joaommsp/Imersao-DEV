@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 800px)"
+      href="css/conversorDeMoeda.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../img/JMlogo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" media="(max-width: 600px)" href="css/mobile.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 600px) and (max-width: 800px)"
+      href="css/tablet.css"
+    />
+
+    <script src="./conversorDeMoeda copy 2.js"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    </style>
+    <title>Conversor de Moedas</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Conversor de moedas</h1>
+
+      <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo"
+        alt=""
+      />
+      <br />
+      <br />
+    </div>
+    <a href="../index.html" class="link_inicio" title="Voltar ao Início">
+      <img src="./imagens/simple_house_icon.svg" alt="" /><span>Home</span>
+    </a>
+    <section class="cotacoes">
+      <div id="DolarDiv" style="color: black"></div>
+      <div id="EuroDiv"></div>
+      <div id="BitDiv"></div>
+      </div>
+      <div id="conversor">
+        <label for="moeda">Conversor de Moedas</label><br />
+        <input type="number" id="valor" size="2" value="0.00" /><br />
+        <p>Moeda</p>
+        <div id="areaButtons">
+          <button type="submit" onclick="ConverterDolar()">DÓLAR</button>
+          <button type="submit" onclick="ConverterEuro()">EURO</button>
+          <button type="submit" onclick="ConverterBitcoin()">BITCOIN</button>
+        </div>
+    </section>
+    <div id="resultados">
+      <div id="valorSolicitado">
+        <p>Conversão de:</p>
+        <p>Valor a converter:</p>
+      </div>
+      <div id="ValorConvertido">
+        <p>Para:</p>
+        <p>Resultado da conversão:</p>
+      </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img
+        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt=""
+        class="alura-logo"
+    /></a>
+    <p id="avisoFinal">⚠️⚠️⚠️ Site em construção 🚧🚧🚧</p>
+    <footer id="rodape">
+      <address id="contato">
+        Dev: João Marcos <br />
+        E-mail: <a href="mailto:jmmsp2003@hotmail.com">jmmsp2003@hotmail.com</a>
+        <br />
+
+        Tel:<a href="tel:+5575988275212">(75)98827-5212 (whatsapp)</a>
+        <br />
+      </address>
+    </footer>
+  </body>
+</html>

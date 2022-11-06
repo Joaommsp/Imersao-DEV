@@ -1,0 +1,100 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url(./background.jpg);
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #111;
+}
+
+.adicionar {
+  margin:  0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adicionar input {
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+  background-color: #111;
+  color: #ffffff;
+  border: 0px;
+
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid rgb(70, 70, 70);
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color:rgb(0, 0, 0);
+}
+
+th,
+tr,
+td {
+  color: #ffffff;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  border: 0px;
+  background-color: #111;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.adicionar button {
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+  background-color: #111;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 0px;
+}
+
+#tabelaJogadores img {
+  width: 50px;
+}

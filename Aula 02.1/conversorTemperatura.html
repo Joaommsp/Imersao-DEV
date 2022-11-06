@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./conversorTemperatura.css">
+    <script src="./conversorTemperatura copy.js"></script>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+      </style>
+    <title>Conversor de Temperatura</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1 class="page-title">
+      Conversor de temperatura
+    </h1>
+    <p class="page-subtitle">
+      Conversor de temperaturas em farenheit, kelvin e celcius.
+    </p>
+
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+  </div>
+  <section class="conversor">
+    <label for="moeda">Insira o valor da temperatura em Graus Celcius</label><br>
+    <input type="number" id="valor" /><br>
+    <p>Unidade</p>
+    <div>
+    <button type="submit" onclick="ConverterFarenheit()">Farenheit</button>
+    <button type="submit" onclick="ConverterKelvin()">Kelvin</button>
+    </div>
+    <h2 id="valorConvertido"></h2>
+  </section>
+
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </body>
+</html>

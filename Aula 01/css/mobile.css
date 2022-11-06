@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono',monospace;
+  height: fit-content;
+  background-image: url(../imagens/Background.jpg);
+  background-color: #727272;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 14vh;
+  background-color: #000000e1;
+}
+
+.page-title {
+  color:#2192FF;
+  margin: 0 0 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  text-shadow: -2px -1px 7px rgba(0,0,0,0.81);
+  font-weight: 600;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+  font-size:0.8em;
+}
+
+.page-logo {
+  width: 150px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.link_inicio {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(161, 73, 250, 0.541);
+  padding: 3px;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.link_inicio img {
+  width: 15px;
+}
+
+.link_inicio span {
+  font-size: 0.7em;
+  margin-left: 10px;
+}
+
+.link_inicio:hover {
+	background-color:rgba(180, 180, 180, 0.801);
+  transition: all linear 0.5s;
+}
+
+#div_seletor_media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:  20px auto;
+  width: 86%;
+}
+
+#div_seletor_media label {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  text-shadow: -2px -1px 7px rgba(0,0,0,0.40);
+  color: #EB4747;
+}
+
+#div_seletor_media input {
+  text-align: center;
+  width: 80px;
+  height: 25px;
+  font-size: 1em;
+}
+
+#calculadora {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.603);
+  padding: 20px;
+  width: 86%;
+  margin:  0 auto;
+  margin-bottom: 50px;
+
+  border-radius: 10px;
+}
+
+#calculadora label {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+#calculadora input {
+  text-align: center;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#calculadora button {
+  height: 40px;
+  width: 100px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 0;
+}
+
+#calculadora button:hover {
+  background-color: red;
+}
+
+#mensagem_situacao {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+}
+
+#resultado {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  margin-bottom: 20px 10px;
+}
+
+footer {
+  background-color: #000000e1;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contato {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 0.7em;
+}
+
+#contato a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #2192FF;
+}
